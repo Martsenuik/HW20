@@ -32,7 +32,7 @@ function createBoxes(amount) {
         let div = document.createElement("div");
         div.style.width = size + "px";
         div.style.height = size + "px";
-        div.style.backgroundColor = rgb(`${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}`);
+        div.style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
         boxes.appendChild(div);
         size += 10;
     }
